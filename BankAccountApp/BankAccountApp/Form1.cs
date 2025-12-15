@@ -2,6 +2,9 @@ namespace BankAccountApp
 {
     public partial class Form1 : Form
     {
+
+        List<BankAccount> BankAccounts = new List<BankAccount>(); // GLOBAL VARIABLE TO HOLD BANK ACCOUNTS
+        //good practice to use uppercase for global variables
         public Form1()
         {
             InitializeComponent();
@@ -24,19 +27,19 @@ namespace BankAccountApp
 
 
             /* using constructors*/
-            BankAccount ACC1 = new BankAccount("Steve Jobs");
-            BankAccount ACC2 = new BankAccount("Elon Musk");
-            BankAccount ACC3 = new BankAccount("Mark Zuckerberg");
-            BankAccount ACC4 = new BankAccount("Bill Gates");
+            //BankAccount ACC1 = new BankAccount("Steve Jobs");
+            //BankAccount ACC2 = new BankAccount("Elon Musk");
+            //BankAccount ACC3 = new BankAccount("Mark Zuckerberg");
+            //BankAccount ACC4 = new BankAccount("Bill Gates");
 
 
-            List<BankAccount> bankAccounts = new List<BankAccount>();
-            bankAccounts.Add(ACC1);
-            bankAccounts.Add(ACC2);
-            bankAccounts.Add(ACC3);
-            bankAccounts.Add(ACC4);
+            //List<BankAccount> bankAccounts = new List<BankAccount>(); ---MOVED THIS TO CLASS LEVEL AS A GLOBAL VARIABLE
+            //bankAccounts.Add(ACC1);
+            //bankAccounts.Add(ACC2);
+            //bankAccounts.Add(ACC3);
+            //bankAccounts.Add(ACC4);
 
-            grd_AccountDetails.DataSource = bankAccounts;
+            //grd_AccountDetails.DataSource = bankAccounts;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -52,6 +55,28 @@ namespace BankAccountApp
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_CreateAcc_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txt_Owner.Text))
+            {
+                MessageBox.Show("Owner field can't be empty");
+                return;
+            }
+            BankAccount bankAcc = new BankAccount(txt_Owner.Text);
+            BankAccounts.Add(bankAcc);
+            //grd_AccountDetails.DataSource = null;
+            //grd_AccountDetails.DataSource = BankAccounts; MOVED TO REFRESH GRID METHOD FOR REUSABILITY
+            MessageBox.Show("Account Created Successfully!");
+            RefreshGrid();
+            txt_Owner.Text = string.Empty;//clears the text box
+        }
+
+        private void RefreshGrid()
+        {
+            grd_AccountDetails.DataSource = null;
+            grd_AccountDetails.DataSource = BankAccounts;
         }
     }
 }

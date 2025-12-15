@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             lb_Owner = new Label();
             lb_Amount = new Label();
-            textBox1 = new TextBox();
+            txt_Owner = new TextBox();
             numericUpDown1 = new NumericUpDown();
             grd_AccountDetails = new DataGridView();
             btn_Deposit = new Button();
@@ -64,13 +64,13 @@
             lb_Amount.TabIndex = 1;
             lb_Amount.Text = "Amount :";
             // 
-            // textBox1
+            // txt_Owner
             // 
-            textBox1.Location = new Point(80, 30);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(204, 23);
-            textBox1.TabIndex = 2;
-            textBox1.TextChanged += textBox1_TextChanged;
+            txt_Owner.Location = new Point(80, 30);
+            txt_Owner.Name = "txt_Owner";
+            txt_Owner.Size = new Size(204, 23);
+            txt_Owner.TabIndex = 2;
+            txt_Owner.TextChanged += textBox1_TextChanged;
             // 
             // numericUpDown1
             // 
@@ -117,6 +117,7 @@
             btn_CreateAcc.TabIndex = 7;
             btn_CreateAcc.Text = "Create Account";
             btn_CreateAcc.UseVisualStyleBackColor = false;
+            btn_CreateAcc.Click += btn_CreateAcc_Click;
             // 
             // Form1
             // 
@@ -129,7 +130,7 @@
             Controls.Add(btn_Deposit);
             Controls.Add(grd_AccountDetails);
             Controls.Add(numericUpDown1);
-            Controls.Add(textBox1);
+            Controls.Add(txt_Owner);
             Controls.Add(lb_Amount);
             Controls.Add(lb_Owner);
             Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -147,7 +148,7 @@
 
         private Label lb_Owner;
         private Label lb_Amount;
-        private TextBox textBox1;
+        private TextBox txt_Owner;
         private NumericUpDown numericUpDown1;
         private DataGridView grd_AccountDetails;
         private Button btn_Deposit;
