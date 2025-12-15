@@ -14,3 +14,4 @@ C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\Bank
 C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BankAccountApp\BankAccountApp\obj\Debug\net8.0-windows\BankAccountApp.pdb
 C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BankAccountApp\BankAccountApp\obj\Debug\net8.0-windows\BankAccountApp.genruntimeconfig.cache
 C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BankAccountApp\BankAccountApp\obj\Debug\net8.0-windows\ref\BankAccountApp.dll
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BankAccountApp\BankAccountApp\obj\Debug\net8.0-windows\BankAccountApp.sourcelink.json

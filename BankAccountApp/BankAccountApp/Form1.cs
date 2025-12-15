@@ -6,26 +6,35 @@ namespace BankAccountApp
         {
             InitializeComponent();
 
-            BankAccount ACC1 = new BankAccount();
-            BankAccount ACC2 = new BankAccount();
-            BankAccount ACC3 = new BankAccount();
+            //BankAccount ACC1 = new BankAccount();
+            //BankAccount ACC2 = new BankAccount();
+            //BankAccount ACC3 = new BankAccount();
 
-            ACC1.AccountOwner = "Steve Jobs";
-            ACC2.AccountOwner = "Elon Musk";
-            ACC3.AccountOwner = "Mark Zuckerberg";
+            //ACC1.AccountOwner = "Steve Jobs";
+            //ACC2.AccountOwner = "Elon Musk";
+            //ACC3.AccountOwner = "Mark Zuckerberg";
 
-            ACC1.AccountNumber = Guid.NewGuid();
-            ACC2.AccountNumber = Guid.NewGuid();
-            ACC3.AccountNumber = Guid.NewGuid();
+            //ACC1.AccountNumber = Guid.NewGuid();
+            //ACC2.AccountNumber = Guid.NewGuid();
+            //ACC3.AccountNumber = Guid.NewGuid();
 
-            ACC1.AccountBalance = 1800;
-            ACC2.AccountBalance = 2700;
-            ACC3.AccountBalance = 3600;
+            //ACC1.AccountBalance = 1800;
+            //ACC2.AccountBalance = 2700;
+            //ACC3.AccountBalance = 3600;
+
+
+            /* using constructors*/
+            BankAccount ACC1 = new BankAccount("Steve Jobs");
+            BankAccount ACC2 = new BankAccount("Elon Musk");
+            BankAccount ACC3 = new BankAccount("Mark Zuckerberg");
+            BankAccount ACC4 = new BankAccount("Bill Gates");
+
 
             List<BankAccount> bankAccounts = new List<BankAccount>();
             bankAccounts.Add(ACC1);
             bankAccounts.Add(ACC2);
             bankAccounts.Add(ACC3);
+            bankAccounts.Add(ACC4);
 
             grd_AccountDetails.DataSource = bankAccounts;
         }
