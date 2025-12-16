@@ -32,12 +32,12 @@
             lb_Owner = new Label();
             lb_Amount = new Label();
             txt_Owner = new TextBox();
-            numericUpDown1 = new NumericUpDown();
+            num_Amt = new NumericUpDown();
             grd_AccountDetails = new DataGridView();
             btn_Deposit = new Button();
             btn_Withdraw = new Button();
             btn_CreateAcc = new Button();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)num_Amt).BeginInit();
             ((System.ComponentModel.ISupportInitialize)grd_AccountDetails).BeginInit();
             SuspendLayout();
             // 
@@ -72,12 +72,14 @@
             txt_Owner.TabIndex = 2;
             txt_Owner.TextChanged += textBox1_TextChanged;
             // 
-            // numericUpDown1
+            // num_Amt
             // 
-            numericUpDown1.Location = new Point(94, 335);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(204, 23);
-            numericUpDown1.TabIndex = 3;
+            num_Amt.Location = new Point(94, 335);
+            num_Amt.Maximum = new decimal(new int[] { 1410065407, 2, 0, 0 });
+            num_Amt.Minimum = new decimal(new int[] { 1410065407, 2, 0, int.MinValue });
+            num_Amt.Name = "num_Amt";
+            num_Amt.Size = new Size(204, 23);
+            num_Amt.TabIndex = 3;
             // 
             // grd_AccountDetails
             // 
@@ -97,6 +99,7 @@
             btn_Deposit.TabIndex = 5;
             btn_Deposit.Text = "Deposit";
             btn_Deposit.UseVisualStyleBackColor = false;
+            btn_Deposit.Click += btn_Deposit_Click;
             // 
             // btn_Withdraw
             // 
@@ -107,6 +110,7 @@
             btn_Withdraw.TabIndex = 6;
             btn_Withdraw.Text = "Withdraw";
             btn_Withdraw.UseVisualStyleBackColor = false;
+            btn_Withdraw.Click += btn_Withdraw_Click;
             // 
             // btn_CreateAcc
             // 
@@ -129,7 +133,7 @@
             Controls.Add(btn_Withdraw);
             Controls.Add(btn_Deposit);
             Controls.Add(grd_AccountDetails);
-            Controls.Add(numericUpDown1);
+            Controls.Add(num_Amt);
             Controls.Add(txt_Owner);
             Controls.Add(lb_Amount);
             Controls.Add(lb_Owner);
@@ -138,7 +142,7 @@
             Name = "Form1";
             Text = "ATM";
             Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)num_Amt).EndInit();
             ((System.ComponentModel.ISupportInitialize)grd_AccountDetails).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -149,7 +153,7 @@
         private Label lb_Owner;
         private Label lb_Amount;
         private TextBox txt_Owner;
-        private NumericUpDown numericUpDown1;
+        private NumericUpDown num_Amt;
         private DataGridView grd_AccountDetails;
         private Button btn_Deposit;
         private Button btn_Withdraw;

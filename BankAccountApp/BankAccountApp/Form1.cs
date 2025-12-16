@@ -78,5 +78,39 @@ namespace BankAccountApp
             grd_AccountDetails.DataSource = null;
             grd_AccountDetails.DataSource = BankAccounts;
         }
+
+        private void btn_Deposit_Click(object sender, EventArgs e)
+        {
+            if (grd_AccountDetails.SelectedRows.Count == 1)
+            {
+                BankAccount selAcc = grd_AccountDetails.SelectedRows[0].DataBoundItem as BankAccount;
+                string msg = selAcc.Deposit(num_Amt.Value);
+                MessageBox.Show(msg);
+                RefreshGrid();
+                num_Amt.Value = 0;
+            }
+            else
+            {
+                MessageBox.Show("Please select an account and enter a valid amount greater than zero.");
+
+            }
+        }
+
+        private void btn_Withdraw_Click(object sender, EventArgs e)
+        {
+            if (grd_AccountDetails.SelectedRows.Count == 1)
+            {
+                BankAccount selAcc = grd_AccountDetails.SelectedRows[0].DataBoundItem as BankAccount;
+               string msg = selAcc.Withdraw(num_Amt.Value);
+                MessageBox.Show(msg);
+                RefreshGrid();
+                num_Amt.Value = 0;
+            }
+            else
+            {
+                MessageBox.Show("Please select an account and enter a valid amount greater than zero.");
+
+            }
+        }
     }
 }
