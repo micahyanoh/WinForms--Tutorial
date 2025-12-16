@@ -64,13 +64,22 @@ namespace BankAccountApp
                 MessageBox.Show("Owner field can't be empty");
                 return;
             }
-            BankAccount bankAcc = new BankAccount(txt_Owner.Text);
-            BankAccounts.Add(bankAcc);
+            if (num_IntRate.Value > 0)
+            {
+
+                // BankAccount savAcc = new SavingsAccount(txt_Owner.Text, num_IntRate.Value);
+                BankAccounts.Add(new SavingsAccount(txt_Owner.Text, num_IntRate.Value));
+
+            }
+            else { BankAccounts.Add(new BankAccount(txt_Owner.Text)); }
+           // BankAccount bankAcc = new BankAccount(txt_Owner.Text);
+            
             //grd_AccountDetails.DataSource = null;
             //grd_AccountDetails.DataSource = BankAccounts; MOVED TO REFRESH GRID METHOD FOR REUSABILITY
             MessageBox.Show("Account Created Successfully!");
             RefreshGrid();
             txt_Owner.Text = string.Empty;//clears the text box
+            num_IntRate.Value = 0;
         }
 
         private void RefreshGrid()
@@ -101,7 +110,7 @@ namespace BankAccountApp
             if (grd_AccountDetails.SelectedRows.Count == 1)
             {
                 BankAccount selAcc = grd_AccountDetails.SelectedRows[0].DataBoundItem as BankAccount;
-               string msg = selAcc.Withdraw(num_Amt.Value);
+                string msg = selAcc.Withdraw(num_Amt.Value);
                 MessageBox.Show(msg);
                 RefreshGrid();
                 num_Amt.Value = 0;
@@ -112,5 +121,7 @@ namespace BankAccountApp
 
             }
         }
+
+        
     }
 }

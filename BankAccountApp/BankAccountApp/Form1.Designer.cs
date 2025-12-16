@@ -37,8 +37,11 @@
             btn_Deposit = new Button();
             btn_Withdraw = new Button();
             btn_CreateAcc = new Button();
+            lb_IntRate = new Label();
+            num_IntRate = new NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)num_Amt).BeginInit();
             ((System.ComponentModel.ISupportInitialize)grd_AccountDetails).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)num_IntRate).BeginInit();
             SuspendLayout();
             // 
             // lb_Owner
@@ -115,7 +118,7 @@
             // btn_CreateAcc
             // 
             btn_CreateAcc.BackColor = SystemColors.ActiveCaption;
-            btn_CreateAcc.Location = new Point(107, 68);
+            btn_CreateAcc.Location = new Point(94, 134);
             btn_CreateAcc.Name = "btn_CreateAcc";
             btn_CreateAcc.Size = new Size(151, 23);
             btn_CreateAcc.TabIndex = 7;
@@ -123,12 +126,32 @@
             btn_CreateAcc.UseVisualStyleBackColor = false;
             btn_CreateAcc.Click += btn_CreateAcc_Click;
             // 
+            // lb_IntRate
+            // 
+            lb_IntRate.AutoSize = true;
+            lb_IntRate.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lb_IntRate.ForeColor = SystemColors.MenuHighlight;
+            lb_IntRate.Location = new Point(23, 74);
+            lb_IntRate.Name = "lb_IntRate";
+            lb_IntRate.Size = new Size(55, 15);
+            lb_IntRate.TabIndex = 8;
+            lb_IntRate.Text = "Int Rate:";
+            // 
+            // num_IntRate
+            // 
+            num_IntRate.Location = new Point(80, 70);
+            num_IntRate.Name = "num_IntRate";
+            num_IntRate.Size = new Size(204, 23);
+            num_IntRate.TabIndex = 9;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
             ClientSize = new Size(800, 450);
+            Controls.Add(num_IntRate);
+            Controls.Add(lb_IntRate);
             Controls.Add(btn_CreateAcc);
             Controls.Add(btn_Withdraw);
             Controls.Add(btn_Deposit);
@@ -144,6 +167,7 @@
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)num_Amt).EndInit();
             ((System.ComponentModel.ISupportInitialize)grd_AccountDetails).EndInit();
+            ((System.ComponentModel.ISupportInitialize)num_IntRate).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -158,5 +182,7 @@
         private Button btn_Deposit;
         private Button btn_Withdraw;
         private Button btn_CreateAcc;
+        private Label lb_IntRate;
+        private NumericUpDown num_IntRate;
     }
 }
