@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{F80CF583-F653-4AD1-8596-C6C45236760D}|MarketAnalyzerApp\\MarketAnalyzerApp.csproj|solutionrelative:marketanalyzerapp\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F80CF583-F653-4AD1-8596-C6C45236760D}|MarketAnalyzerApp\\MarketAnalyzerApp.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\windowforms\\marketanalyzerapp\\marketanalyzerapp\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F80CF583-F653-4AD1-8596-C6C45236760D}|MarketAnalyzerApp\\MarketAnalyzerApp.csproj|C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MarketAnalyzerApp\\marketanalyzerapp\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F80CF583-F653-4AD1-8596-C6C45236760D}|MarketAnalyzerApp\\MarketAnalyzerApp.csproj|solutionrelative:marketanalyzerapp\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "MarketAnalyzerApp\\ProductsForm.cs",
               "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MarketAnalyzerApp\\MarketAnalyzerApp\\ProductsForm.cs",
               "RelativeToolTip": "MarketAnalyzerApp\\ProductsForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBcAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-17T08:42:17.438Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "MarketAnalyzerApp\\Data\\CSVDataLoader.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAuwAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T07:43:00.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T07:43:00.688Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "MarketAnalyzerApp\\Data\\ProductMap.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T07:32:23.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T07:32:23.674Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "MarketAnalyzerApp\\Data\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T07:18:57.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T07:18:57.909Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MarketAnalyzerApp\\MarketAnalyzerApp\\ProductsForm.cs [Design]",
               "RelativeToolTip": "MarketAnalyzerApp\\ProductsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T07:16:58.059Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-17T07:16:58.059Z"
             }
           ]
         }
