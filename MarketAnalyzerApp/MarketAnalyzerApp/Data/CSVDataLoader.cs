@@ -9,7 +9,7 @@ namespace MarketAnalyzerApp.Data
     public class CSVDataLoader
     {
         private static string datasetPath = Path.Combine(Application.StartupPath, "Data\\amazon_small_dataset.csv");
-        private const int dataLimit = 100000;
+        private const int dataLimit = 80000;
 
         public static List<Product> LoadData()
         {

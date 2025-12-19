@@ -29,32 +29,45 @@
         private void InitializeComponent()
         {
             grdProducts = new DataGridView();
+            txt_Search = new TextBox();
             ((System.ComponentModel.ISupportInitialize)grdProducts).BeginInit();
             SuspendLayout();
             // 
             // grdProducts
             // 
             grdProducts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            grdProducts.Location = new Point(12, 29);
+            grdProducts.Location = new Point(9, 68);
             grdProducts.Name = "grdProducts";
-            grdProducts.Size = new Size(776, 363);
+            grdProducts.Size = new Size(372, 220);
             grdProducts.TabIndex = 0;
+            grdProducts.CellContentClick += grdProducts_CellContentClick;
+            // 
+            // txt_Search
+            // 
+            txt_Search.Location = new Point(9, 30);
+            txt_Search.Name = "txt_Search";
+            txt_Search.Size = new Size(372, 23);
+            txt_Search.TabIndex = 1;
+            txt_Search.TextChanged += txt_Search_TextChanged;
             // 
             // ProductsForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(txt_Search);
             Controls.Add(grdProducts);
             Name = "ProductsForm";
             Text = "ProductsForm";
-            Load += this.ProductsForm_Load;
+            Load += ProductsForm_Load;
             ((System.ComponentModel.ISupportInitialize)grdProducts).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private DataGridView grdProducts;
+        private TextBox txt_Search;
     }
 }

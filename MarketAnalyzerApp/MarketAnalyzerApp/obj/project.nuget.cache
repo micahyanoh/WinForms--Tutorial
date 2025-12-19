@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "q3rkLvxeAE0=",
+  "dgSpecHash": "q5UjchlqlmQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MarketAnalyzerApp\\MarketAnalyzerApp\\MarketAnalyzerApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alfonce.yano\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512"
+    "C:\\Users\\alfonce.yano\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512",
+    "C:\\Users\\alfonce.yano\\.nuget\\packages\\winforms.datavisualization\\1.10.0\\winforms.datavisualization.1.10.0.nupkg.sha512"
   ],
   "logs": []
 }
