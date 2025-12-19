@@ -19,3 +19,5 @@ C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\Mark
 C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\MarketAnalyzerApp\MarketAnalyzerApp\obj\Debug\net8.0-windows\MarketAnalyzerApp.pdb
 C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\MarketAnalyzerApp\MarketAnalyzerApp\obj\Debug\net8.0-windows\MarketAnalyzerApp.genruntimeconfig.cache
 C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\MarketAnalyzerApp\MarketAnalyzerApp\obj\Debug\net8.0-windows\ref\MarketAnalyzerApp.dll
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\MarketAnalyzerApp\MarketAnalyzerApp\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\MarketAnalyzerApp\MarketAnalyzerApp\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
