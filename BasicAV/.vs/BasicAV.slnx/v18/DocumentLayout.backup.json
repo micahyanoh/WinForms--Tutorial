@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\BasicAV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3053F17-EF97-4711-9DEF-0E7EA3F095DF}|BasicAV\\BasicAV.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\windowforms\\basicav\\basicav\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3053F17-EF97-4711-9DEF-0E7EA3F095DF}|BasicAV\\BasicAV.csproj|solutionrelative:basicav\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3053F17-EF97-4711-9DEF-0E7EA3F095DF}|BasicAV\\BasicAV.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\windowforms\\basicav\\basicav\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3053F17-EF97-4711-9DEF-0E7EA3F095DF}|BasicAV\\BasicAV.csproj|solutionrelative:basicav\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3053F17-EF97-4711-9DEF-0E7EA3F095DF}|BasicAV\\BasicAV.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\windowforms\\basicav\\basicav\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3053F17-EF97-4711-9DEF-0E7EA3F095DF}|BasicAV\\BasicAV.csproj|solutionrelative:basicav\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\BasicAV\\BasicAV\\Form1.cs",
+              "RelativeDocumentMoniker": "BasicAV\\Form1.cs",
+              "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\BasicAV\\BasicAV\\Form1.cs",
+              "RelativeToolTip": "BasicAV\\Form1.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T07:23:45.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\BasicAV\\BasicAV\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "BasicAV\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\BasicAV\\BasicAV\\Form1.Designer.cs",
+              "RelativeToolTip": "BasicAV\\Form1.Designer.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T06:58:06.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\BasicAV\\BasicAV\\Form1.cs",
+              "RelativeDocumentMoniker": "BasicAV\\Form1.cs",
+              "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\BasicAV\\BasicAV\\Form1.cs [Design]",
+              "RelativeToolTip": "BasicAV\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T06:49:23.365Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

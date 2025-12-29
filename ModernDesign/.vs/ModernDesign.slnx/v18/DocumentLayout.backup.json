@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\ModernDesign\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A212C8-7216-40BC-A172-E1E6CC94AE4E}|ModernDesign\\ModernDesign.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\windowforms\\moderndesign\\moderndesign\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4A212C8-7216-40BC-A172-E1E6CC94AE4E}|ModernDesign\\ModernDesign.csproj|solutionrelative:moderndesign\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A212C8-7216-40BC-A172-E1E6CC94AE4E}|ModernDesign\\ModernDesign.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\windowforms\\moderndesign\\moderndesign\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A212C8-7216-40BC-A172-E1E6CC94AE4E}|ModernDesign\\ModernDesign.csproj|solutionrelative:moderndesign\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\ModernDesign\\ModernDesign\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ModernDesign\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\ModernDesign\\ModernDesign\\MainWindow.xaml",
+              "RelativeToolTip": "ModernDesign\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-24T06:22:39.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\ModernDesign\\ModernDesign\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ModernDesign\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\ModernDesign\\ModernDesign\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ModernDesign\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T06:22:36.722Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

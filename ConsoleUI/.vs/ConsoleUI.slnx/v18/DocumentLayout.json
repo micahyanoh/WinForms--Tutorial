@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\ConsoleUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E92BB4A-8A82-4507-8EB3-25293ADD0DA4}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\consoleui\\consoleui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E92BB4A-8A82-4507-8EB3-25293ADD0DA4}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E92BB4A-8A82-4507-8EB3-25293ADD0DA4}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\consoleui\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E92BB4A-8A82-4507-8EB3-25293ADD0DA4}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E92BB4A-8A82-4507-8EB3-25293ADD0DA4}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\consoleui\\consoleui\\greetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E92BB4A-8A82-4507-8EB3-25293ADD0DA4}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\greetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GreetingService.cs",
+              "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\ConsoleUI\\ConsoleUI\\GreetingService.cs",
+              "RelativeDocumentMoniker": "ConsoleUI\\GreetingService.cs",
+              "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\ConsoleUI\\ConsoleUI\\GreetingService.cs",
+              "RelativeToolTip": "ConsoleUI\\GreetingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T10:00:52.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\ConsoleUI\\ConsoleUI\\appsettings.json",
+              "RelativeDocumentMoniker": "ConsoleUI\\appsettings.json",
+              "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\ConsoleUI\\ConsoleUI\\appsettings.json",
+              "RelativeToolTip": "ConsoleUI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-29T09:56:22.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\ConsoleUI\\ConsoleUI\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
+              "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\ConsoleUI\\ConsoleUI\\Program.cs",
+              "RelativeToolTip": "ConsoleUI\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T07:46:51.935Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

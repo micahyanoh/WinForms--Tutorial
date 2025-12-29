@@ -1,0 +1,17 @@
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\obj\Debug\net10.0-windows\BasicAV.Form1.resources
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\obj\Debug\net10.0-windows\BasicAV.csproj.GenerateResource.cache
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\obj\Debug\net10.0-windows\BasicAV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\obj\Debug\net10.0-windows\BasicAV.AssemblyInfoInputs.cache
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\obj\Debug\net10.0-windows\BasicAV.AssemblyInfo.cs
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\obj\Debug\net10.0-windows\BasicAV.csproj.CoreCompileInputs.cache
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\obj\Debug\net10.0-windows\BasicAV.sourcelink.json
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\bin\Debug\net10.0-windows\BasicAV.exe
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\bin\Debug\net10.0-windows\BasicAV.deps.json
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\bin\Debug\net10.0-windows\BasicAV.runtimeconfig.json
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\bin\Debug\net10.0-windows\BasicAV.dll
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\bin\Debug\net10.0-windows\BasicAV.pdb
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\obj\Debug\net10.0-windows\BasicAV.dll
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\obj\Debug\net10.0-windows\refint\BasicAV.dll
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\obj\Debug\net10.0-windows\BasicAV.pdb
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\obj\Debug\net10.0-windows\BasicAV.genruntimeconfig.cache
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\BasicAV\BasicAV\obj\Debug\net10.0-windows\ref\BasicAV.dll
