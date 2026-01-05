@@ -1,48 +1,50 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using System;
 using System.Collections.Generic;
 using System.Text;
+
+
 
 namespace MusicApp
 {
     internal class AlbumDAO
     {
 
-        //public List<Album> GetAlbums()
-        //{
-        //    // In a real application, this method would retrieve data from a database.
-        //    // Here, we return a hardcoded list of albums for demonstration purposes.
-        //    return new List<Album>
-        //    {
-        //        new Album
-        //        {
-        //            ID = 1,
-        //            AlbumName = "Thriller",
-        //            ArtistName = "Michael Jackson",
-        //            Year = 1982,
-        //            ImageUrl = "https://example.com/thriller.jpg",
-        //            Description = "The best-selling album of all time."
-        //        },
-        //        new Album
-        //        {
-        //            ID = 2,
-        //            AlbumName = "Back in Black",
-        //            ArtistName = "AC/DC",
-        //            Year = 1980,
-        //            ImageUrl = "https://example.com/backinblack.jpg",
-        //            Description = "A classic rock album."
-        //        },
-        //        new Album
-        //        {
-        //            ID = 3,
-        //            AlbumName = "The Dark Side of the Moon",
-        //            ArtistName = "Pink Floyd",
-        //            Year = 1973,
-        //            ImageUrl = "https://example.com/darksidemoon.jpg",
-        //            Description = "A progressive rock masterpiece."
-        //        }
-        //    };
-        //}
-        public List<Album> albums = new List<Album>();
+        private static readonly string connectionString = "Server=.;Database=music_db;User Id=nodeuser;Password=M!c@h-2025;TrustServerCertificate=True;Encrypt=True";
+        private SqlConnection connection = new SqlConnection(connectionString);
+        public  List<Album> albums = new List<Album>();
+        
+        public List<Album> GetAllAlbums()
+        {
+            connection.Open();
+            string cmd = "select * from tb_album";
+            SqlCommand command = new SqlCommand(cmd, connection);
+
+            using (SqlDataReader reader = command.ExecuteReader())
+            { 
+                while (reader.Read()) {
+                    Album album = new Album
+                    {
+                        ID = reader.GetInt32(0),
+                        AlbumName = reader.GetString(1),
+                        ArtistName = reader.GetString(2),
+                        Year = reader.GetInt32(3),
+                        ImageUrl = reader.GetString(4),
+                        Description = reader.GetString(5)
+
+                    };
+                 albums.Add(album);
+
+                }
+
+            }
+
+            connection.Close();
+            return albums;
+
+        }
+
+
 
     }
 }
