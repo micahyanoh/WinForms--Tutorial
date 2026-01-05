@@ -44,6 +44,41 @@ namespace MusicApp
 
         }
 
+        public List<Album> SearchTitle(string searchTerm)
+        {
+            connection.Open();
+            string cmd = "select * from tb_album where alb_title like @search";
+            SqlCommand command = new SqlCommand();
+            command.CommandText = cmd;
+            command.Parameters.AddWithValue("@search", "%" + searchTerm + "%");
+            command.Connection = connection;
+
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    Album album = new Album
+                    {
+                        ID = reader.GetInt32(0),
+                        AlbumName = reader.GetString(1),
+                        ArtistName = reader.GetString(2),
+                        Year = reader.GetInt32(3),
+                        ImageUrl = reader.GetString(4),
+                        Description = reader.GetString(5)
+
+                    };
+                    albums.Add(album);
+
+                }
+
+            }
+
+            connection.Close();
+            return albums;
+
+        }
+
+
 
 
     }

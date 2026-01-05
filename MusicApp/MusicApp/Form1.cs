@@ -49,5 +49,18 @@ namespace MusicApp
             albumBindingSource.DataSource = albumDAO.GetAllAlbums();
             grid_albums.DataSource = albumBindingSource;
         }
+
+        private void txt_search_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_search_Click(object sender, EventArgs e)
+        {
+            AlbumDAO albumDAO = new AlbumDAO();
+            albumBindingSource.DataSource = albumDAO.SearchTitle(txt_search.Text);
+            grid_albums.DataSource = albumBindingSource;
+
+        }
     }
 }

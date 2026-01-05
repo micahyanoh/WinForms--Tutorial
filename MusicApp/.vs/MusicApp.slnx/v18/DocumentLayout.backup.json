@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{F2D03DF6-BD76-0F36-B156-7078BBD6EE51}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\albumdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D03DF6-BD76-0F36-B156-7078BBD6EE51}|MusicApp\\MusicApp.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\windowforms\\musicapp\\musicapp\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D03DF6-BD76-0F36-B156-7078BBD6EE51}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F2D03DF6-BD76-0F36-B156-7078BBD6EE51}|MusicApp\\MusicApp.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\windowforms\\musicapp\\musicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2D03DF6-BD76-0F36-B156-7078BBD6EE51}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{F2D03DF6-BD76-0F36-B156-7078BBD6EE51}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BE866D5-03DA-452F-8735-1EE89013CA02}|MusicApp\\MusicApp.csproj|C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\musicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6BE866D5-03DA-452F-8735-1EE89013CA02}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F2D03DF6-BD76-0F36-B156-7078BBD6EE51}|MusicApp\\MusicApp.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\windowforms\\musicapp\\musicapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D03DF6-BD76-0F36-B156-7078BBD6EE51}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D03DF6-BD76-0F36-B156-7078BBD6EE51}|MusicApp\\MusicApp.csproj|c:\\users\\alfonce.yano\\onedrive - aga khan university\\desktop\\nb\\windowforms\\musicapp\\musicapp\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D03DF6-BD76-0F36-B156-7078BBD6EE51}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,31 +30,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\MusicApp\\Form1.cs",
+              "RelativeDocumentMoniker": "MusicApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\MusicApp\\Form1.cs",
+              "RelativeToolTip": "MusicApp\\Form1.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAEwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T11:22:14.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\MusicApp\\Form1.cs",
               "RelativeDocumentMoniker": "MusicApp\\Form1.cs",
               "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\MusicApp\\Form1.cs [Design]",
               "RelativeToolTip": "MusicApp\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T08:58:02.098Z",
+              "WhenOpened": "2026-01-05T11:22:07.276Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\MusicApp\\Form1.cs",
-              "RelativeDocumentMoniker": "MusicApp\\Form1.cs",
-              "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\MusicApp\\Form1.cs",
-              "RelativeToolTip": "MusicApp\\Form1.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAACoAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\MusicApp\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "MusicApp\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\MusicApp\\Form1.Designer.cs",
+              "RelativeToolTip": "MusicApp\\Form1.Designer.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T07:39:59.207Z",
+              "WhenOpened": "2026-01-05T11:19:16.536Z",
               "EditorCaption": ""
             },
             {
@@ -65,14 +78,14 @@
               "RelativeDocumentMoniker": "MusicApp\\AlbumDAO.cs",
               "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\MusicApp\\AlbumDAO.cs*",
               "RelativeToolTip": "MusicApp\\AlbumDAO.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAB6AAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T07:30:21.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Album.cs",
               "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\MusicApp\\Album.cs",
               "RelativeDocumentMoniker": "MusicApp\\Album.cs",
@@ -80,19 +93,7 @@
               "RelativeToolTip": "MusicApp\\Album.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAowBEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T07:11:12.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\MusicApp\\Form1.cs",
-              "RelativeDocumentMoniker": "MusicApp\\Form1.cs",
-              "ToolTip": "C:\\Users\\alfonce.yano\\OneDrive - Aga Khan University\\Desktop\\NB\\WindowForms\\MusicApp\\MusicApp\\Form1.cs [Design]",
-              "RelativeToolTip": "MusicApp\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T07:07:32.182Z"
+              "WhenOpened": "2026-01-05T07:11:12.599Z"
             }
           ]
         }
