@@ -78,8 +78,20 @@ namespace MusicApp
 
         }
 
+        internal int AddNewAlbum(Album newAlbum)
+        {
+            connection.Open();
+            string cmd = "insert into tb_album values(@albumtitle,@artist,@year,@imageURL,@description)";
+            SqlCommand command = new SqlCommand(cmd, connection);
+            command.Parameters.AddWithValue("@albumtitle", newAlbum.AlbumName);
+            command.Parameters.AddWithValue("@artist", newAlbum.ArtistName);
+            command.Parameters.AddWithValue("@year", newAlbum.Year);
+            command.Parameters.AddWithValue("@imageURL", newAlbum.ImageUrl);
+            command.Parameters.AddWithValue("@description", newAlbum.Description);
+            int rowsAffected=command.ExecuteNonQuery();
 
-
-
+            connection.Close();
+            return rowsAffected;
+        }
     }
 }

@@ -58,3 +58,4 @@ C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\Musi
 C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\MusicApp\MusicApp\bin\Debug\net10.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\MusicApp\MusicApp\obj\Debug\net10.0-windows\MusicApp.csproj.AssemblyReference.cache
 C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\MusicApp\MusicApp\obj\Debug\net10.0-windows\MusicApp.csproj.Up2Date
+C:\Users\alfonce.yano\OneDrive - Aga Khan University\Desktop\NB\WindowForms\MusicApp\MusicApp\obj\Debug\net10.0-windows\MusicApp.Properties.Resources.resources
